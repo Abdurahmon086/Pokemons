@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Pokemon</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="hero container">
+                <img src="./img/pokemon.png" alt="pokemon logo">
+                <div class="hero__heart">
+                    <img src="./img/heart.svg" alt="heart icon">
+                </div>
+                <div class="hero__wrapper">
+                    <form class="hero__form form">
+                        <select name="hero" class="from__select">
+                            <option value="0">Candy</option>
+                            <option value="all">All</option>
+                        </select>
+                        <label for="search">
+                            <input type="search" name="search" class="form__search" placeholder="Search">
+                        </label>
+                        <select name="hero" class="from__select-size">
+                            <option disabled selected>Sort AZ and Age</option>
+                            <option value="Az">Aa-Zz</option>
+                            <option value="Za">Zz-Aa</option>
+                            <option value="Ha">High age</option>
+                            <option value="La">Low age</option>
+                        </select>
+
+                        <button type="submit" class="form__btn">Button</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="product container">
+
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/data.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
